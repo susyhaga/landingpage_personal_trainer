@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Pacifico&family=Poppins&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-3">Cacau Oliveira - personal trainer</h1>
+            <button class="navbar-toggler pb-1" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block pt-2 d-md-flex">
+                    <li class="navbar-item">
+                        <a href="#sobre-a-personal" class="nav-link">
+                            <i class="bi bi-file-person-fill"></i>
+                            Sobre a profissional
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#aulas" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Aulas
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#treinos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Treinos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#fale-comigo" class="nav-link">
+                            <i class="bi bi-chat-left me-1"></i>
+                            Agendar treino
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="carrossel">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel1">
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img class="carrossel"src="https://c.pxhere.com/images/e5/15/253cf73c4544414ed8a3202d1192-1621389.jpg!d" alt="mulher treinando perna">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="carrossel"src="https://c.pxhere.com/photos/59/66/photo-1609253.jpg!d" alt="homem e mulher fazendo prancha com uma mao">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="carrossel" src="https://c.pxhere.com/images/4e/f5/1bad0b9b045c3e81a9b49bf2a965-1633004.jpg!d" alt="mulher segurando corda">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1"data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel1" class="active" data-bs-slide-to="0"></button>
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-5 pb-5"  id="sobre-a-personal">
+                <div class="container w-50">
+                    <div class="row">
+                        <div class="col-md-5 mt-md-0">
+                            <img id="borda" src="./images/personal.jpg" class="d-block w-100 h-60 rounded" alt="foto da personal">
+                        </div>
+                        <div class="col-md-7 mt-3">
+                            <h2 class="section-title">Sobre <span class="text-colored">Cacau Oliveira</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam ratione deleniti vero inventore sequi et suscipit commodi? Amet, est consequatur corporis eaque impedit praesentium modi rerum optio a mollitia?
+                            </p>
+                            <h3 class="section-title">Tipos<span class="text-colored"> de treinos</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium totam ratione deleniti vero inventore sequi et suscipit commodi? Amet, est consequatur corporis eaque impedit praesentium modi rerum optio a mollitia?
+                            </p>
+                            <ul>
+                                <li>Individual</li>
+                                <li>Dupla</li>
+                                <li>Grupo</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="aulas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Tipos <span class="text-colored">de aulas</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="./images/5.jpg" class="d-block w-100 rounded mb-2" alt="duas mulheres malhando">
+                        <h3 class="section-title text-colored fs-4"> <i class="bi bi-calendar-heart-fill"></i> Musculação + hipertrofia</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus veniam facilis aut sint aperiam reprehenderit illo sapiente voluptas. Nobis expedita consequatur molestias ab placeat earum ea. Similique necessitatibus fuga molestias.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/hiit.jpg" class="d-block w-100 rounded mb-2"alt="mulher alongando">
+                        <h3 class="section-title text-colored fs-4"><i class="bi bi-universal-access"></i> Alongamento + aeróbico</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus veniam facilis aut sint aperiam reprehenderit illo sapiente voluptas. Nobis expedita consequatur molestias ab placeat earum ea. Similique necessitatibus fuga molestias.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/bike.jpg" class="d-block w-100 rounded mb-2 h-50"alt="homem na bicileta">
+                        <h3 class="section-title text-colored fs-4"><i class="bi bi-prescription2"></i>Fortalecimento + prevenção</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus veniam facilis aut sint aperiam reprehenderit illo sapiente voluptas. Nobis expedita consequatur molestias ab placeat earum ea. Similique necessitatibus fuga molestias.</p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id="treinos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pb-2">Objetivos <span class="text-colored"> de cada treino</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#musculacao"class="nav-link text-colored active fw-bold text-start">Musculação</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#alongamento"class="nav-link text-colored fw-bold text-start">Alongamento</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#aerobico"class="nav-link text-colored fw-bold text-start">Aeróbico</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hipertrofia"class="nav-link text-colored fw-bold text-start">Hipertrofia</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content ">
+                            <div class="tab-pane active" id="musculacao">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/8.jpg" alt="imagem de pessoa malhando"  class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Massa muscular</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/5.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100">
+                                        <h5 class="text-color fw-bold mt-2">Prevenção de osteoporose </h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/2.jpg" alt="imagem de pessoa malhando"  class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Condicionamento</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/4.png" alt="imagem de pessoa malhando" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Emagrecimento</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/8.jpg" alt="imagem de pessoa malhando"  class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2"> Correção de postura</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/5.jpg"  alt="imagem de pessoa malhando" class="d-block w-100">
+                                        <h5 class="text-color fw-bold mt-2">Redução de lesões</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img  src="./images/2.jpg" alt="imagem de pessoa malhando"  class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2"> Saúde emocional</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/4.png"alt="imagem de pessoa malhando" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Melhora o sono.</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="alongamento">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/aaaa.jpeg" alt="imagem de uma pessoa alongando" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Fortalece</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/along2.jpg" alt="imagem de uma pessoa alongando"class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Ajuda na hipertrofia</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/along3.jpeg" alt="imagem de uma pessoa alongando" class="d-block w-100 h=50">
+                                        <h5 class="text-color fw-bold mt-2">Diminui dores</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/along4.jpeg" alt="imagem de uma pessoa alongando" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Aumenta a flexibilidade</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/aaaa.jpeg" alt="imagem de uma pessoa alongando"class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Reduz o stress</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/along2.jpg" alt="imagem de uma pessoa alongando" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Melhora a postura</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/along3.jpeg" alt="imagem de uma pessoa alongando" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Melhora a circulação</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/along4.jpeg" alt="imagem de uma pessoa alongando" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Mais agilidade</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="aerobico">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/hiit.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100">
+                                        <h5 class="text-color fw-bold mt-2">HIIT</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/aeeee.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Corrida</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/bike.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Bike</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/baixo.png" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Baixo impacto</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/esc.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Escada</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/ae.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Jumping</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/corda.jpeg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Corda</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/cam.png" alt="imagem de uma garrafa de coca cola" class="d-block w-100">
+                                        <h5 class="text-color fw-bold mt-2">Caminhada</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="hipertrofia">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="./images/bulg.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100">
+                                        <h5 class="text-color fw-bold mt-2">Agachamento búlgaro</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/hiiii8.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Elevação pélvica</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/hiii2.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Agachamento afundo</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/crossover-polia-alta.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Croos over</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/rem.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Levantamento terra</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/hiii6.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Supino</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/sttt.jpg" alt="imagem de uma garrafa de coca cola" class="d-block w-100">
+                                        <h5 class="text-color fw-bold mt-2">Stiff</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="./images/legg.jpeg" alt="imagem de uma garrafa de coca cola" class="d-block w-100 h-50">
+                                        <h5 class="text-color fw-bold mt-2">Leg press</h5>
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-comigo" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">comigo</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required> 
+                            </div>
+                            <div>
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="text" id="email" class="form-control" required> 
+                            </div>
+                            <div>
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone</label>
+                                <input type="tel" id="telefone" class="form-control" required> 
+                            </div>
+                            <div>
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea type="text" id="mensagem" class="form-control"></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold mt-2">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="https://instagram.com/cacauoliveiira?igshid=MzRlODBiNWFlZA==">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-cursor-fill"></i>
+                                Local de atendimento</h3>
+                            <p>Toda Mogi das Cruzes, Alto Tiete e região</p>
+                        </div>
+                
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                            <i class="bi bi-telephone-fill"></i>
+                            Telefone para contato</h3>
+                            <p>(11)XXXXX-XXXX</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

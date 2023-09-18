@@ -1,0 +1,63 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.navbar{
+    background-color: #6b1400;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: #ffff;
+    color: #6b1400;
+}
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brandL:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #ffff;
+}
+#cabecalho button{
+    justify-content: end;
+}
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+.section-title{
+    font-family: Pacifico, cursive;
+}
+#aulas, #fale-comigo{ 
+    background-color: #ffeae6;
+}
+#sobre-a-personal{
+    background-color: #ffff;
+}
+#carrossel{
+    background-color:#ac341a ;
+}
+#borda{
+    border: 4px solid #ac341a;
+}
+.text-colored{
+    color:  #6b1400;
+}
+.nav-cardapio .nav-link.active,
+#fale-comigo button{
+    background-color: #6b1400;
+    color: #ffff;
+}
+.nav-cardapio .nav-link:hover{
+    color:#6b1400;
+}
+.social-links li{
+    display: inline;
+    list-style: none;
+}
+.social-links a{
+    text-decoration:none
+}
+@media(max-width:767px){
+    .carousel-item img{
+        height: 280px;
+    }
+    .navbar-toggler{
+        justify-content: end;
+    }
+}
